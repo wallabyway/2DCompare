@@ -93,7 +93,7 @@
                     "guid": "6804b706-1300-45a8-a055-38f23b65de09",
                     "type": "resource",
                     "role": "leaflet",
-                    "urn": "2DCompare/sheet2/{z}/{x}_{y}.jpeg",
+                    "urn": "sheet2/{z}/{x}_{y}.jpeg",
                     "mime": "leaflet/jpeg",
                     "resolution": [6600, 5100],
                     "paperUnits": "in",
