@@ -8,8 +8,8 @@ function initializeViewer() {
         config3d: {
             extensions: ['Autodesk.Viewing.PixelCompare']
         },
-        urn1: "./sheet1/bubble.json",
-        urn2: "./sheet2/bubble.json",
+        urn1: "2DCompare/sheet1/bubble.json",
+        urn2: "2DCompare/sheet2/bubble.json",
     }
 
     options.config3d.compareSplitLineStyle = {
