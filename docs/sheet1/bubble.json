@@ -1,0 +1,166 @@
+{
+    "guid": "dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x",
+    "owner": "dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x",
+    "type": "design",
+    "hasThumbnail": "true",
+    "progress": "complete",
+    "startedAt": "Tue Nov 10 04:41:24 UTC 2015",
+    "status": "success",
+    "urn": "dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x",
+    "success": "100%",
+    "children": [{
+        "guid": "dd74e41f-584f-48e2-b6f7-57a3068e1825",
+        "type": "folder",
+        "hasThumbnail": "false",
+        "role": "metadata",
+        "status": "success",
+        "progress": "complete",
+        "success": "100%",
+        "children": [{
+            "guid": "06662cee-5cda-4773-8e55-f97b53e90dda",
+            "type": "resource",
+            "role": "Autodesk.CloudPlatform.DesignDescription.Registered",
+            "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/ds/designdescription.json"
+        }]
+    }, {
+        "guid": "aa85aad6-c480-4a35-9cbf-4cf5994a25ba",
+        "name": "e2a5e1c1-0646-4fc3-bf99-dc119e6e3e85.pdf",
+        "hasThumbnail": "true",
+        "role": "viewable",
+        "version": "2.0",
+        "status": "success",
+        "type": "folder",
+        "progress": "complete",
+        "success": "100%",
+        "children": [{
+            "guid": "f03cff7f-e9eb-4795-9848-372d4db6de55",
+            "type": "resource",
+            "size": 3055.0,
+            "role": "Autodesk.CloudPlatform.IndexableContent",
+            "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/item.json",
+            "mime": "application/json",
+            "status": "success"
+        }, {
+            "guid": "4d138640-8765-11e5-8f8c-22000b760642",
+            "type": "folder",
+            "name": "Sheets",
+            "status": "success",
+            "progress": "complete",
+            "success": "100%",
+            "hasThumbnail": "false",
+            "children": [{
+                "guid": "MzE5MzQwNzI0ODExNjI4Mzc4OTY3NzI1Mzc2ODYxNDI4NzcxMTU2MzEyMjM2NzMzNg==",
+                "type": "resource",
+                "role": "pdf",
+                "mime": "application/pdf",
+                "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/libreOffice/_e2a5e1c1-0646-4fc3-bf99-dc119e6e3e85.pdf",
+                "size": 82577,
+                "status": "success"
+            }]
+        }, {
+            "guid": "83ddfc40-a50c-44e3-98b5-2e5e3e334624",
+            "type": "folder",
+            "name": "Sheets",
+            "status": "success",
+            "progress": "complete",
+            "success": "100%",
+            "hasThumbnail": "true",
+            "children": [{
+                "guid": "4c892600-9ffe-4adf-a814-4525249773e7",
+                "type": "geometry",
+                "role": "2d",
+                "name": "1",
+                "order": 1,
+                "viewableID": "1",
+                "status": "success",
+                "extractor": "pdf-raster-extractor",
+                "progress": "complete",
+                "success": "100%",
+                "hasThumbnail": "true",
+                "children": [{
+                    "guid": "f89ec658-649b-4564-93e9-6fea359aaf92",
+                    "type": "resource",
+                    "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/1/primaryGraphics.f2d",
+                    "role": "graphics",
+                    "mime": "application/autodesk-f2d"
+                }, {
+                    "guid": "5af40a1b-d237-479b-8869-b4b2b84f6749",
+                    "type": "view",
+                    "role": "2d",
+                    "name": "INITIAL",
+                    "viewbox": [0, 0, 11, 8.5]
+                }, {
+                    "guid": "6804b706-1300-45a8-a055-38f23b65de09",
+                    "type": "resource",
+                    "role": "leaflet",
+                    "urn": "sheet1/{z}/{x}_{y}.jpeg",
+                    "mime": "leaflet/jpeg",
+                    "resolution": [6600, 5100],
+                    "paperUnits": "in",
+                    "paperWidth": 11,
+                    "paperHeight": 8.5
+                }, {
+                    "guid": "e841e531-afbf-44af-91aa-0c8a52e74924",
+                    "type": "resource",
+                    "role": "leaflet-zip",
+                    "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/1/tiles_files.zip",
+                    "mime": "application/zip",
+                    "max_level": "13",
+                    "size": 1018272
+                }]
+            }]
+        }, {
+            "guid": "4290cb3f-1998-4222-8ad0-03b2cc40ba53",
+            "type": "folder",
+            "name": "Sheets",
+            "status": "success",
+            "progress": "complete",
+            "success": "100%",
+            "hasThumbnail": "true",
+            "children": [{
+                "guid": "b1005715-9665-40c2-8928-2fbf2294cebb",
+                "type": "geometry",
+                "role": "2d",
+                "name": "1",
+                "order": 1,
+                "viewableID": "1",
+                "status": "success",
+                "extractor": "pdf-raster-extractor",
+                "progress": "complete",
+                "success": "100%",
+                "hasThumbnail": "true",
+                "children": [{
+                    "guid": "d89fc2b7-c879-41a0-b356-bdd20ad50a44",
+                    "type": "resource",
+                    "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/1/primaryGraphics.f2d",
+                    "role": "graphics",
+                    "mime": "application/autodesk-f2d"
+                }, {
+                    "guid": "6ab3a56d-5b2b-4538-aa81-4132ef4e51ac",
+                    "type": "view",
+                    "role": "2d",
+                    "name": "INITIAL",
+                    "viewbox": [0, 0, 11, 8.5]
+                }, {
+                    "guid": "0088f224-8929-43fd-ac00-72b0ed3a6973",
+                    "type": "resource",
+                    "role": "leaflet",
+                    "urn": "sheet1/{z}/{x}_{y}.jpeg",
+                    "mime": "leaflet/jpeg",
+                    "resolution": [6600, 5100],
+                    "paperUnits": "in",
+                    "paperWidth": 11,
+                    "paperHeight": 8.5
+                }, {
+                    "guid": "a2cc354d-a193-4d40-a1c4-edd57885d487",
+                    "type": "resource",
+                    "role": "leaflet-zip",
+                    "urn": "urn:adsk.viewing:fs.file:dXJuOmFkc2sud2lwZGF0YTp2ZXJzaW9uZWRGaWxlOjc5NUtZV2FGUjcyVDhTTThPcXFjNFE_dmVyc2lvbj0x/output/1/tiles_files.zip",
+                    "mime": "application/zip",
+                    "max_level": "13",
+                    "size": 1018272
+                }]
+            }]
+        }]
+    }]
+}

@@ -1,0 +1,19 @@
+.pixel-compare-splitter {
+    background: transparent;
+    width: 16px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 8px);
+    z-index: 3;
+    display: none;
+    cursor: col-resize;
+}
+
+.pixel-compare-splitter-center-mark {
+    background: #73a9e8;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 7.5px;
+}
