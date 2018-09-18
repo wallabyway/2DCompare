@@ -1,5 +1,6 @@
 # Compare two 2D documents using Forge Viewer
 
+BLOG POST: https://forge.autodesk.com/blog/compare-two-2d-documents-using-forge-viewer
 
 
 Want to compare two documents?  Well, now you can !  
