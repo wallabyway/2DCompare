@@ -4,7 +4,7 @@
 
 Want to compare two documents?  Well, now you can !  
 
-![](difference.jpg)
+![difference](https://user-images.githubusercontent.com/440241/44435035-fb855f00-a562-11e8-912d-de1091c8c5de.jpg)
 
 In my last blog post, I covered viewing large 2D bitmaps inside the Forge Viewer (ie. OCR, PDFs, terrain maps).  In this blog post, I’ll continue using bitmaps and show you how to compare two versions.
 
@@ -99,7 +99,8 @@ function initializeViewer() {
 ### How to Use
 In the animation below, you can see the comparison in action...
 
-![](compare2d-big.gif)
+![compare2d-big](https://user-images.githubusercontent.com/440241/44435030-f7594180-a562-11e8-9ea9-be0f4e25c6a0.gif)
+
 
 - I press the key 1, which toggles the offset mode.  
 - Then press 2 and 3, which toggles between URN1 and URN2…
@@ -108,6 +109,6 @@ In the animation below, you can see the comparison in action...
 
 And that’s it.  
 
-Here's a LIVE DEMO.
+Here's a [LIVE DEMO](https://wallabyway.github.io/2DCompare).
 
 Don’t forget to follow me on Twitter @micbeale
