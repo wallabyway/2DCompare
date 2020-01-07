@@ -23,16 +23,8 @@ function initializeViewer() {
         viewer.start();
         Autodesk.Viewing.Document.load(options.urn1,
             function(document, errorsandwarnings) {
-                var geometryItems = Autodesk.Viewing.Document.getSubItemsWithProperties(document.getRootItem(), {
-                    'type': 'geometry',
-                    'role': '2d'
-                }, true);
-
-                if (geometryItems.length > 0) {
-                    var loadOptions = {};
-                    var path = document.getViewablePath(geometryItems[0], loadOptions);
-                    viewer.load(path, null, onLoadSuccess, null, document.acmSessionId, loadOptions);
-                }
+         
+               viewer.loadDocumentNode(document, document.docRoot.search({'type':'geometry',role:'2d'})[0]).then(onLoadSuccess)
 
             }
         )
