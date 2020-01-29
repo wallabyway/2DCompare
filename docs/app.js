@@ -23,23 +23,15 @@ function initializeViewer() {
         viewer.start();
         Autodesk.Viewing.Document.load(options.urn1,
             function(document, errorsandwarnings) {
-                var geometryItems = Autodesk.Viewing.Document.getSubItemsWithProperties(document.getRootItem(), {
-                    'type': 'geometry',
-                    'role': '2d'
-                }, true);
-
-                if (geometryItems.length > 0) {
-                    var loadOptions = {};
-                    var path = document.getViewablePath(geometryItems[0], loadOptions);
-                    viewer.load(path, null, onLoadSuccess, null, document.acmSessionId, loadOptions);
-                }
+         
+               viewer.loadDocumentNode(document, document.docRoot.search({'type':'geometry',role:'2d'})[0]).then(onLoadSuccess)
 
             }
         )
     });
 
     function onPixelCompareExtensionLoaded(pixelCompareExt) {
-		var offsetMode = false;
+        var offsetMode = false;
 /*
         const LeafletDiffModes = {
             NORMAL_DIFF: 0,
@@ -52,14 +44,14 @@ function initializeViewer() {
 */
 
         function onKeyDown(event) {
-        	if (!event.keyCode) return;
-        	if ((event.keyCode < 49) || (event.keyCode > 55)) return;
+            if (!event.keyCode) return;
+            if ((event.keyCode < 49) || (event.keyCode > 55)) return;
 
             if (event.keyCode == 49) {
                 offsetMode = !offsetMode;
                 pixelCompareExt.setChangeOffsetMode( offsetMode );
             } else
-	            pixelCompareExt.setDiffMode(event.keyCode - 50);
+                pixelCompareExt.setDiffMode(event.keyCode - 50);
         };
         window.addEventListener('keydown', onKeyDown);
 
